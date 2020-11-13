@@ -13,10 +13,10 @@ const options = {
   env: process.env,
 }
 
-const child = shell.exec('now --scope=vuetifyjs --token=$NOW_TOKEN --confirm', options)
+const child = shell.exec('now --scope=whyour --token=$NOW_TOKEN --confirm', options)
 if (child.code !== 0) {
   process.exit(child.code)
 }
 const instanceUrl = child.stdout
 
-shell.exec(`now alias set ${instanceUrl} ${alias} --scope=vuetifyjs --token=$NOW_TOKEN`, options)
+shell.exec(`now alias set ${instanceUrl} ${alias} --scope=whyour --token=$NOW_TOKEN`, options)
