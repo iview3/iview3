@@ -3,7 +3,6 @@ on: [push, pull_request]
 
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  CROWDIN_BRANCH: master
 
 jobs:
   publish-docs:
