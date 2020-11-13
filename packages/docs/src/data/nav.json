@@ -7,6 +7,13 @@
     ]
   },
   {
+    "title": "features",
+    "icon": "$mdiImageEditOutline:$mdiImageEdit",
+    "items": [
+      "internationalization"
+    ]
+  },
+  {
     "title": "ui-components",
     "icon": "$mdiViewDashboardOutline:$mdiViewDashboard",
     "group": "components",

@@ -58,7 +58,6 @@ const sanitize = str => str.replace(/\$/g, '')
 
 function createMdFile (component, data, locale) {
   const headerLocale = getHeaderLocale(locale)
-  console.log('headerLocale',headerLocale)
   let str = ''
 
   str += genHeader(component)
@@ -82,7 +81,6 @@ function writeFile (componentName, componentApi, locale) {
   if (!fs.existsSync(resolve(folder))) {
     fs.mkdirSync(resolve(folder), { recursive: true })
   }
-console.log('componentApi',componentApi)
   fs.writeFileSync(resolve(`${folder}/${sanitize(componentName)}.md`), createMdFile(componentName, componentApi, locale))
 }
 
