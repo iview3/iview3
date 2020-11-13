@@ -2,9 +2,11 @@
 
 <br>
 
-# Material Design Framework
+# IView3
 
-Vuetify is a Vue UI Library with beautifully handcrafted Material Components. No design skills required — everything you need to create amazing applications is at your fingertips. {style="max-width: 568px" .mx-auto}
+A high quality UI Toolkit
+based on Vue.js@3
+<!-- {style="max-width: 568px" .mx-auto} -->
 
 <br>
 
@@ -15,12 +17,6 @@ Vuetify is a Vue UI Library with beautifully handcrafted Material Components. No
 <br>
 <br>
 
-## Project Sponsors
-
-The continued development and maintenance of Vuetify
-<br>
-is made possible by these generous sponsors:
-
 <br>
 
-<home-sponsors />
+<!-- <home-sponsors /> -->

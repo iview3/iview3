@@ -13,8 +13,6 @@ related:
 
 Opinionated base styles for Vuetify projects.
 
-<entry-ad />
-
 ## Bootstrapping
 
 ress is a modern CSS reset that applies a solid base for stylesheets. It is built on top of [normalize.css](https://github.com/necolas/normalize.css) and adds new features such as specifying `font-family: monospace` for `<code>` elements, removing all `outlines` from elements when hovering, and much much more. Additional information can be found on the [ress GitHub repository](https://github.com/filipelinhares/ress).

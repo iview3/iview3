@@ -13,8 +13,6 @@ related:
 
 The `v-radio` component is a simple radio button. When combined with  the `v-radio-group` component you can provide groupable functionality to allow users to select from a predefined set of options.
 
-<entry-ad />
-
 ## Usage
 
 Although `v-radio` can be used on its own, it is best used in conjunction with `v-radio-group`. Using the **v-model** on the `v-radio-group` you can access the value of the selected radio button inside the group.

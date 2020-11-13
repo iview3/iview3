@@ -1,13 +1,30 @@
 // Imports
 const fs = require('fs')
 const { resolve } = require('path')
-const { getApi, getCompleteApi } = require('@vuetify/api-generator')
+const { startCase } = require('lodash')
+const { getApi, getCompleteApi, getHeaderLocale } = require('@vuetify/api-generator')
 const rimraf = require('rimraf')
 
-const localeList = require('../src/i18n/locales').map(item => item.locale)
+const localeList = require('../src/i18n/locales').map(item => item.alternate || item.locale)
+const pageToApi = require('../src/data/page-to-api')
 
-const capitalize = str => {
-  return str.charAt(0).toUpperCase() + str.slice(1)
+function genApiLinks (component, header) {
+  const links = Object.keys(pageToApi)
+    .filter(page => pageToApi[page].includes(component))
+    .reduce((acc, href) => {
+      const name = href.split('/')[1]
+      acc.push(`- [${startCase(name)}](${href})`)
+      return acc
+    }, [])
+
+  if (!links.length || !header) return ''
+
+  const section = [
+    `## ${header}`,
+    links.join('\n'),
+  ]
+
+  return `${section.join('\n\n')}\n\n`
 }
 
 function genFrontMatter (component) {
@@ -17,14 +34,13 @@ function genFrontMatter (component) {
     `keywords: ${component}, api, vuetify`,
   ]
 
-  return `---\nmeta:\n${fm.map(s => '  ' + s).join('\n')}\n---\n\n`
+  return `---\nmeta:\n${fm.map(s => '  ' + s).join('\n')}\n---`
 }
 
 function genHeader (component) {
   const header = [
     genFrontMatter(component),
-    `# ${component} API\n\n`,
-    '<entry-ad />',
+    `# ${component} API`
   ]
 
   return `${header.join('\n\n')}\n\n`
@@ -35,23 +51,23 @@ function genFooter () {
     '<backmatter />',
   ]
 
-  return `${footer.join('\n\n')}\n\n`
+  return `${footer.join('\n\n')}\n`
 }
 
 const sanitize = str => str.replace(/\$/g, '')
 
 function createMdFile (component, data, locale) {
+  const headerLocale = getHeaderLocale(locale)
+  console.log('headerLocale',headerLocale)
   let str = ''
 
   str += genHeader(component)
+  str += genApiLinks(component, headerLocale.links)
 
   for (const [header, value] of Object.entries(data)) {
     if (['mixins', 'name'].includes(header) || !value.length) continue
 
-    str += header === 'sass'
-      ? '## SASS Variables\n'
-      : `## ${capitalize(header)}\n`
-
+    str += `## ${headerLocale[header]}\n\n`
     str += `<api-table name="${sanitize(component)}" field="${header}" />\n\n`
   }
 
@@ -66,7 +82,7 @@ function writeFile (componentName, componentApi, locale) {
   if (!fs.existsSync(resolve(folder))) {
     fs.mkdirSync(resolve(folder), { recursive: true })
   }
-
+console.log('componentApi',componentApi)
   fs.writeFileSync(resolve(`${folder}/${sanitize(componentName)}.md`), createMdFile(componentName, componentApi, locale))
 }
 

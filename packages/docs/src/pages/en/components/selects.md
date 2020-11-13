@@ -13,8 +13,6 @@ related:
 
 Select fields components are used for collecting user provided information from a list of options.
 
-<entry-ad />
-
 ## Usage
 
 <example file="v-select/usage" />

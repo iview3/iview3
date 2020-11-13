@@ -13,8 +13,6 @@ related:
 
 The `v-badge` component superscripts or subscripts an avatar-like icon or text onto content to highlight information to a user or to just draw attention to a specific element. Content within the badge usually contains numbers or icons.
 
-<entry-ad />
-
 ## Usage
 
 Badges in their simplest form display to the upper right of the content that it wraps and requires the badge slot.

@@ -61,10 +61,6 @@
         tier="2"
       />
 
-      <sponsor-link
-        class="ml-2"
-        small
-      />
     </div>
   </v-navigation-drawer>
 </template>

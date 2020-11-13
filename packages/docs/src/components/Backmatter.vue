@@ -3,34 +3,13 @@
     :id="id"
     class="mt-12"
   >
-    <app-heading
-      :content="text"
-      level="2"
-    />
-
-    <i18n
-      class="mb-3"
-      path="ready-text"
-      tag="div"
-    >
-      <template #team>
-        <i18n
-          :href="url"
-          path="team"
-          tag="app-link"
-        />
-      </template>
-    </i18n>
-
     <related-pages />
 
     <app-divider class="mt-7 mb-5" />
 
     <up-next class="mb-4" />
 
-    <exit-ad class="mb-8" />
-
-    <contribute />
+    <!-- <contribute /> -->
   </section>
 </template>
 

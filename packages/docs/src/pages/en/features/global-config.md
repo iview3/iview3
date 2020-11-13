@@ -13,8 +13,6 @@ related:
 
 `Vuetify.config` is an object containing global configuration options for modifying bootstrapping options.
 
-<entry-ad />
-
 ## silent
 
 This option suppresses *all* Vuetify logs and warnings.

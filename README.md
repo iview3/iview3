@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://vuetifyjs.com" target="_blank">
-    <img alt="Vuetify Logo" width="100" src="https://cdn.vuetifyjs.com/images/logos/logo.svg">
+    <img alt="Vuetify Logo" width="100" src="https://file.iviewui.com/dist/7dcf5af41fac2e4728549fa7e73d61c5.svg">
   </a>
 </p>
 

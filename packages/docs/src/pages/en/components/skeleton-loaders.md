@@ -13,8 +13,6 @@ related:
 
 The `v-skeleton-loader` component is a versatile tool that can fill many roles within a project.  At its heart, the component provides an indication to the user that something is coming but not yet available. There are over 30 pre-defined options available that can be combined to make custom examples.
 
-<entry-ad />
-
 ## Usage
 
 The `v-skeleton-loader` component provides a user with a visual indicator that content is coming / loading. This is better received than traditional full-screen loaders.

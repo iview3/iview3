@@ -13,8 +13,6 @@ related:
 
 The `v-file-input` component is a specialized input that provides a clean interface for selecting files, showing detailed selection information and upload progress. It is meant to be a direct replacement for a standard file input.
 
-<entry-ad />
-
 ## Usage
 
 At its core, the `v-file-input` component is a basic container that extends [v-text-field](/components/text-fields).

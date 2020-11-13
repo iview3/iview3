@@ -13,8 +13,6 @@ related:
 
 With Vuetify you can control various aspects of your application based upon the window size. This service works in conjunction with [grids](/components/grids/) and other responsive helper classes (e.g. [display](/styles/display/)).
 
-<entry-ad />
-
 <breakpoints-table />
 
 ## Breakpoint service

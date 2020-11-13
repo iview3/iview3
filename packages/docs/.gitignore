@@ -4,6 +4,7 @@ node_modules
 /src/api
 /src/pages/*
 !/src/pages/en
+!/src/pages/zh-Hans
 
 # local env files
 .env.local

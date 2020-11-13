@@ -26,32 +26,10 @@
       <v-col cols="auto">
         <v-btn
           :min-width="btnWidth"
-          :to="{
-            name: 'Documentation',
-            params: {
-              category: 'introduction',
-              page: 'why-vuetify'
-            }
-          }"
-          color="primary"
-          outlined
-          x-large
-        >
-          <v-icon left>
-            $mdiVuetify
-          </v-icon>
-
-          {{ $t('home.why-vuetify') }}
-        </v-btn>
-      </v-col>
-
-      <v-col cols="auto">
-        <v-btn
-          :min-width="btnWidth"
           color="#212121"
           dark
           depressed
-          href="https://github.com/vuetifyjs/vuetify"
+          href="https://github.com/iview3/iview3"
           rel="noopener"
           target="_blank"
           x-large

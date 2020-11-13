@@ -8,8 +8,4 @@ module.exports = [
     locale: 'zh-CN',
     alternate: 'zh-Hans',
   },
-  {
-    title: 'Help translate',
-    locale: 'eo-UY',
-  },
 ]

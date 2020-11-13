@@ -13,8 +13,6 @@ related:
 
 The `v-btn` component replaces the standard html button with a material design theme and a multitude of options. Any color helper class can be used to alter the background or text color. <inline-ad slug="scrimba-buttons" />
 
-<entry-ad />
-
 ## Usage
 
 Buttons in their simplest form contain uppercase text, a slight elevation, hover effect, and a ripple effect on click.

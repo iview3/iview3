@@ -13,8 +13,6 @@ related:
 
 Vuetify is a progressive framework that attempts to push web development to the next level. In order to best accomplish this task, some sacrifices had to be made in terms of support for older versions of Internet Explorer. This is not an exhaustive list of compatible browsers, but the main targeted ones.
 
-<entry-ad />
-
 ## Browsers
 
 | Browser | Status |

@@ -13,8 +13,6 @@ related:
 
 Vuetify comes bootstrapped with support for Material Design Icons, Material Icons, Font Awesome 4 and Font Awesome 5. By default, applications will default to use [Material Design Icons](https://materialdesignicons.com/).
 
-<entry-ad />
-
 ## Usage
 
 In order to change your font library, add the `iconfont` option during instantiation.

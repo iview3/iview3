@@ -13,8 +13,6 @@ related:
 
 `v-date-picker` can be used as a standalone month picker component.
 
-<entry-ad />
-
 ## Usage
 
 Month pickers come in two orientation variations, portrait **(default)** and landscape.

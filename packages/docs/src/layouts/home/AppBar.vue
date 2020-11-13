@@ -12,8 +12,8 @@
       :to="{
         name: 'Documentation',
         params: {
-          category: 'introduction',
-          page: 'why-vuetify'
+          category: 'getting-started',
+          page: 'installation'
         }
       }"
     />

@@ -13,8 +13,6 @@ related:
 
 Use border utilities to quickly style the border-radius of any element.
 
-<entry-ad />
-
 ## Usage
 
 <example file="border-radius/usage" />

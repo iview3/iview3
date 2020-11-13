@@ -13,8 +13,6 @@ related:
 
 The `v-resize` directive can be used for calling specific functions when the window resizes.
 
-<entry-ad />
-
 ## Usage
 
 Resize your window and observe the values change..

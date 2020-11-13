@@ -13,8 +13,6 @@ related:
 
 The `v-card` component is a versatile component that can be used for anything from a panel to a static image. The **card** component has numerous helper components to make markup as easy as possible. Components that have no listed options use Vue's functional component option for faster rendering and serve as markup sugar to make building easier. <inline-ad slug="scrimba-cards" />
 
-<entry-ad />
-
 ## Usage
 
 A card has 4 basic components, `v-card-title`, `v-card-subtitle`, `v-card-text` and `v-card-actions`.

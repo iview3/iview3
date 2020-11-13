@@ -13,8 +13,6 @@ related:
 
 Out of the box you get access to all colors in the [Material Design spec](https://material.io/guidelines/style/color.html) through **sass** and **javascript**. These values can be used within your style sheets, your component files and on actual components via the **color class** system.
 
-<entry-ad />
-
 ## Classes
 
 Each color from the spec gets converted to a **background** and **text** variant for styling within your application through a class, e.g. `<div class="red">` or `<span class="red--text">`. These class colors are defined [here](https://github.com/vuetifyjs/vuetify/blob/master/packages/vuetify/src/styles/settings/_colors.scss).

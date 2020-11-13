@@ -13,8 +13,6 @@ related:
 
 The `v-stepper` component displays progress through numbered steps.
 
-<entry-ad />
-
 ## Usage
 
 A stepper can be used for a multitude of scenarios, including shopping carts, record creation and more.

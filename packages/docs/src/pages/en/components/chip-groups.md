@@ -13,8 +13,6 @@ related:
 
 The `v-chip-group` supercharges the `v-chip` component by providing groupable functionality. It is used for creating groups of selections using chips.
 
-<entry-ad />
-
 ## Usage
 
 Chip groups make it easy for users to select filtering options for more complex implementations. By default `v-chip-group` will overflow to the right but can be changed to a **column** only mode.

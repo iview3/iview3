@@ -13,8 +13,6 @@ related:
 
 The `v-subheader` component is used to separate sections of lists.
 
-<entry-ad />
-
 ## Usage
 
 Subheaders in their simplest form display a subheading with default theme.

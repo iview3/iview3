@@ -15,8 +15,6 @@ The sparkline component can be used to create simple graphs, like GitHub's contr
 
 Any [SVG attribute](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute) may be used in addition to the ones listed below.
 
-<entry-ad />
-
 ## Usage
 
 A sparkline is a tiny chart that provides a visual representation of data. The sparkline component comes in 2 variations, **trend**(default) and **bar**. Each support a multitude of options for customizing the look and feel of the sparkline.

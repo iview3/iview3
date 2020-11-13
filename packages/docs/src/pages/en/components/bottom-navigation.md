@@ -13,8 +13,6 @@ related:
 
 The `v-bottom-navigation` component is an alternative to the sidebar. It is primarily used for mobile applications and comes in three variants, **icons** and **text**, and **shift**.
 
-<entry-ad />
-
 ## Usage
 
 While the bottom nav is meant to be used with the [vue-router](https://router.vuejs.org/), you can also programmatically control the active state of the buttons by using the **active** prop with the _sync_ modifier—e.g. `active.sync`. Modify the **value** property to designate the synced value. A button is given a default value of its _index_ with `v-bottom-navigation`.

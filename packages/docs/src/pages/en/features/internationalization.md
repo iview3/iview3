@@ -13,8 +13,6 @@ related:
 
 Vuetify supports language Internationalization (i18n) of its components. When bootstrapping your application you can specify available locales and the currently active locale with the **current** option. The **lang** service also supports easy integration with [vue-i18n](#vue-i18n).
 
-<entry-ad />
-
 ## Getting started
 
 To set the available locales or the current locale, supply the `lang` option when installing Vuetify. The provided `locales` property will be merged with the already existing locales. You can change the locale during runtime through the `$vuetify` object on the Vue instance.

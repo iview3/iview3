@@ -13,8 +13,6 @@ related:
 
 `v-date-picker` is a fully featured date selection component that lets users select a date, or range of dates.
 
-<entry-ad />
-
 ## Usage
 
 Date pickers come in two orientation variations, portrait **(default)** and landscape. By default they are emitting `input` event when the day (for date picker) or month (for month picker), but with **reactive** prop they can update the model even after clicking year/month.

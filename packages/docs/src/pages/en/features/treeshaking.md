@@ -13,8 +13,6 @@ related:
 
 Being a component framework, Vuetify will always grow horizontally. Depending on your project, a small **package size** may be a requirement. The A la carte system enables you to pick and choose which components to import, drastically _lowering_ your build size. New projects created with the [Vue CLI plugin](/getting-started/quick-start#vue-cli-install) have this enabled by default.
 
-<entry-ad />
-
 <alert type="error">
 
   Treeshaking will only work with Webpack 4 in **production mode**. This is automatic when using Vue CLI.

@@ -13,8 +13,6 @@ related:
 
 Update your layout without creating new classes. Spacing helpers are useful for modifying the padding and margin of an element.<inline-ad slug="scrimba-spacing" />
 
-<entry-ad />
-
 Use the playground to get a feel for what the different helper classes can do. For an explanation of **how they work**, see the How it works section below.
 
 <example file="spacing/usage" />

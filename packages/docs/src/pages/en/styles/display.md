@@ -13,8 +13,6 @@ related:
 
 The display helpers allow you to control the display of content. This includes being conditionally visible based upon the current viewport, or the actual element display type.
 
-<entry-ad />
-
 <breakpoints-table />
 
 ## Display

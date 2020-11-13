@@ -12,8 +12,6 @@ related:
 
 The `v-mutate` directive utilizes the [Mutation Observer API](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver). It provides an easy to use interface for detecting when elements are updated.
 
-<entry-ad />
-
 ## Usage
 
 By default the `v-mutate` directive will enable all available options in the [Mutation Observer API](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver). This can be modified in one of two ways. You can either pass in object with keys for **handler** and **options** or use the `modifier` property of the directive, `v-mutate.attr.sub="onMutate"`

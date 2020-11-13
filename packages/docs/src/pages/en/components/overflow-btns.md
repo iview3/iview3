@@ -13,8 +13,6 @@ related:
 
 `v-overflow-btn` is used to give the user the ability to select items from the list. It has 3 variations: `editable`, `overflow` and `segmented`
 
-<entry-ad />
-
 ## Usage
 
 `v-overflow-btn` is used for creating selection lists

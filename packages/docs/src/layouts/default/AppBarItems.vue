@@ -1,18 +1,17 @@
 <template>
   <div class="flex-1-1-auto d-flex align-center justify-end">
-    <default-search />
+    <!-- <default-search /> -->
 
     <template v-if="$vuetify.breakpoint.smAndUp">
-      <vertical-divider />
+      <!-- <vertical-divider /> -->
 
-      <learn-menu />
-
-      <support-menu />
+      <!-- <learn-menu /> -->
+      <start-link />
 
       <template v-if="$vuetify.breakpoint.mdAndUp">
-        <team-link />
+        <!-- <team-link />
 
-        <vertical-divider />
+        <vertical-divider /> -->
 
         <settings-toggle />
       </template>

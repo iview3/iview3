@@ -13,8 +13,6 @@ related:
 
 The `v-overlay` component is used to provide emphasis on a particular element or parts of it. It signals to the user of a state change within the application and can be used for creating loaders, dialogs and more.
 
-<entry-ad />
-
 ## Usage
 
 In its simplest form, the `v-overlay` component will add a dimmed layer over your application.

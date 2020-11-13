@@ -13,8 +13,6 @@ related:
 
 The `v-carousel` component is used to display large numbers of visual content on a rotating timer.
 
-<entry-ad />
-
 ## Usage
 
 The `v-carousel` component expands upon `v-window` by providing additional features targeted at displaying images.

@@ -13,8 +13,6 @@ related:
 
 The `v-dialog` component inform users about a specific task and may contain critical information, require decisions, or involve multiple tasks. Use dialogs sparingly because they are interruptive.
 
-<entry-ad />
-
 ## Usage
 
 A dialog contains two slots, one for its activator and one for its content (default). Good for Privacy Policies.

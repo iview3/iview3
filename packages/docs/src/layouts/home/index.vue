@@ -6,7 +6,7 @@
 
     <home-view />
 
-    <home-footer />
+    <!-- <home-footer /> -->
 
     <default-snackbar />
 

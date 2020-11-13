@@ -107,6 +107,7 @@
         })
       }
 
+console.log(this)
       this.init(this.md)
 
       const { assets, actions = [] } = this.frontmatter

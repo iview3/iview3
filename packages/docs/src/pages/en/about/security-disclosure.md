@@ -14,8 +14,6 @@ related:
 
 This document outlines security procedures and general policies for the Vuetify project.
 
-<entry-ad />
-
 ## Reporting a Bug
 
 The Vuetify team and community take all security bugs in Vuetify seriously. We appreciate your efforts and responsible disclosure and will make every effort to acknowledge your contributions.

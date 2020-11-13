@@ -13,8 +13,6 @@ related:
 
 The `v-menu` component shows a menu at the position of the element used to activate it.
 
-<entry-ad />
-
 ## Usage
 
 Remember to put the element that activates the menu in the `activator` slot.

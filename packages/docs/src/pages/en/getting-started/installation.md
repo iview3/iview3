@@ -13,8 +13,6 @@ related:
 
 Get started with Vuetify, the world’s most popular Vue.js framework for building feature rich, blazing fast applications.
 
-<entry-ad />
-
 ## Vue CLI Install
 
 <alert type="warning">

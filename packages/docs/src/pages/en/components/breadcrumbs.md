@@ -13,8 +13,6 @@ related:
 
 The `v-breadcrumbs` component is a navigational helper for pages. It can accept a **Material Icons** icon or text characters as a divider. An array of objects can be passed to the **items** property of the component.  Additionally, slots exists for more control of the breadcrumbs, either utilizing `v-breadcrumbs-item` or other custom markup.
 
-<entry-ad />
-
 ## Usage
 
 By default, breadcrumbs use a text divider. This can be any string.

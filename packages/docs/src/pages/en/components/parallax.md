@@ -13,8 +13,6 @@ related:
 
 The `v-parallax` component creates a 3d effect that makes an image appear to scroll slower than the window.
 
-<entry-ad />
-
 ## Usage
 
 A parallax causes a shift in a background image when the user scrolls the page.

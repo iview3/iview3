@@ -13,8 +13,6 @@ related:
 
 Text fields components are used for collecting user provided information.
 
-<entry-ad />
-
 ## Usage
 
 A simple text field with placeholder and/or label.

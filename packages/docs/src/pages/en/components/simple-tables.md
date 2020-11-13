@@ -13,8 +13,6 @@ related:
 
 The `v-simple-table` component is a simple wrapper component around the `<table>` element. Inside the component you can use all the regular table elements such as `<thead>`, `<tbody>`, `<tr>`, etc.
 
-<entry-ad />
-
 ## Usage
 
 The simple table is a wrapper component around the `<table>` element.

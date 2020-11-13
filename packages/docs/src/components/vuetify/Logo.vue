@@ -5,7 +5,7 @@
     v-on="$listeners"
   >
     <v-img
-      :src="`https://cdn.vuetifyjs.com/docs/images/logos/vuetify-logo-${theme.isDark ? 'dark' : 'light' }-text.svg`"
+      src="https://file.iviewui.com/dist/7dcf5af41fac2e4728549fa7e73d61c5.svg"
       :alt="$t('logo')"
       class="shrink"
       max-width="148"

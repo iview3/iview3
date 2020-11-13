@@ -11,8 +11,6 @@ related:
 
 The `v-touch` directive allows you to capture swipe gestures and apply directional callbacks.
 
-<entry-ad />
-
 ## Usage
 
 On a mobile device, try swiping in various directions.

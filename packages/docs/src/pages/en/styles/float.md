@@ -13,8 +13,6 @@ related:
 
 Applies a custom float across any breakpoint with responsive float utilities.
 
-<entry-ad />
-
 ## Overview
 
 Float utility classes apply floating based upon the current viewport size using the [CSS float property](https://developer.mozilla.org/en-US/docs/Web/CSS/float).

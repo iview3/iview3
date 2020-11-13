@@ -31,8 +31,6 @@
         </v-col>
       </v-row>
     </v-responsive>
-
-    <sponsor-link large />
   </v-sheet>
 </template>
 

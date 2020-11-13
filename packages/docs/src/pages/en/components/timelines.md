@@ -14,8 +14,6 @@ related:
 
 The `v-timeline` is useful for stylistically displaying chronological information.
 
-<entry-ad />
-
 ## Usage
 
 `v-timeline`'s in their simplest form display a vertical timeline that should contain at least one `v-timeline-item`.

@@ -13,8 +13,6 @@ related:
 
 The `v-alert` component is used to convey important information to the user through the use contextual types icons and color. These default types come in in 4 variations: **success**, **info**, **warning**, and **error**. Default icons are assigned which help represent different actions each type portrays. Many parts of an alert such as `border`, `icon`, and `color` can also be customized to fit almost any situation.
 
-<entry-ad />
-
 ## Usage
 
 Alerts in their simplest form are a flat [sheets of paper](/components/sheets) that display a message.
@@ -65,7 +63,7 @@ The **outlined** prop inverts the style of an alert, inheriting the currently ap
 
 <example file="v-alert/prop-outlined" />
 
-<discovery-ad />
+<!-- <discovery-ad /> -->
 
 #### Prominent
 

@@ -1,64 +1,9 @@
 [
   {
-    "title": "introduction",
-    "icon": "$mdiScriptTextOutline:$mdiScriptText",
-    "items": [
-      "why-vuetify",
-      "long-term-support",
-      "roadmap",
-      { "divider": true },
-      { "heading": "professional-support" },
-      "support",
-      "enterprise"
-    ]
-  },
-  {
     "title": "getting-started",
     "icon": "$mdiSpeedometerMedium:$mdiSpeedometer",
     "items": [
-      "installation",
-      "browser-support",
-      "frequently-asked-questions",
-      "wireframes",
-      "unit-testing",
-      "release-notes",
-      "upgrade-guide",
-      "contributing"
-    ]
-  },
-  {
-    "title": "features",
-    "icon": "$mdiImageEditOutline:$mdiImageEdit",
-    "items": [
-      "accessibility",
-      "bidirectionality",
-      "breakpoints",
-      "global-config",
-      "icons",
-      "internationalization",
-      "layouts",
-      "presets",
-      "sass-variables",
-      "scrolling",
-      "theme",
-      "treeshaking"
-    ]
-  },
-  {
-    "title": "styles",
-    "icon": "$mdiPaletteOutline:$mdiPalette",
-    "items": [
-      "css-reset",
-      "border-radius",
-      "colors",
-      "content",
-      "display",
-      "elevation",
-      "flex",
-      "float",
-      "spacing",
-      "text-and-typography",
-      "transitions"
+      "installation"
     ]
   },
   {
@@ -193,24 +138,6 @@
       "ripple",
       "scroll",
       "touch"
-    ]
-  },
-  {
-    "title": "resources",
-    "icon": "$mdiTeach",
-    "items": [
-      "made-with-vuetify",
-      "themes"
-    ]
-  },
-  {
-    "title": "about",
-    "icon": "$mdiVuetify",
-    "items": [
-      "meet-the-team",
-      "sponsors-and-backers",
-      "security-disclosure",
-      "code-of-conduct"
     ]
   }
 ]

@@ -29,10 +29,9 @@
             to: {
               name: 'Documentation',
               params: {
-                category: 'introduction',
-                page: 'why-vuetify',
+                category: 'components',
+                page: 'alerts',
               },
-              hash: '#guide',
             },
           }
         ]

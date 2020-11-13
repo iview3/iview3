@@ -13,8 +13,6 @@ related:
 
 The `v-img` component is packed with features to support rich media. Combined with the [vuetify-loader](https://github.com/vuetifyjs/vuetify-loader), you can add dynamic progressive images to provide a better user experience.
 
-<entry-ad />
-
 ## Usage
 
 `v-img` component is used to display a responsive image with lazy-load and placeholder.

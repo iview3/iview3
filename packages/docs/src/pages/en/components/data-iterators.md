@@ -13,8 +13,6 @@ related:
 
 The `v-data-iterator` component is used for displaying data, and shares a majority of its functionality with the `v-data-table` component. Features include sorting, searching, pagination, and selection.
 
-<entry-ad />
-
 ## Usage
 
 The `v-data-iterator` allows you to customize exactly how to display your data. In this example we are using a grid with cards.

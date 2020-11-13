@@ -13,8 +13,6 @@ related:
 
 The `v-sheet` component is the baseline for numerous components such as [v-card](/components/cards/), [v-toolbar](/components/toolbars/), and more. The available properties form the foundation of Material Design—the concept of paper and elevation (shadows).
 
-<entry-ad />
-
 ## Usage
 
 The `v-sheet` component is a transformable piece of _paper_ that provides a basic foundation for Vuetify features. For example, properties such as **rounded** and **shaped** modify the `border-radius` property while **elevation** increase / decreases `box-shadow`.
