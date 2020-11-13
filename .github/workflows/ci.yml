@@ -6,52 +6,22 @@ env:
   CROWDIN_BRANCH: master
 
 jobs:
-  # lint:
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - uses: actions/checkout@v2
-  #     - uses: actions/cache@v2
-  #       with:
-  #         path: |
-  #           node_modules
-  #           **/node_modules
-  #         key: ${{ runner.os }}-${{ hashFiles('./yarn.lock') }}
-  #     - run: yarn --frozen-lockfile --non-interactive
-  #     - run: yarn run build:lib
-  #       working-directory: ./packages/vuetify
-  #     - run: yarn run lint
+  publish-docs:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' github.ref == 'refs/heads/master'
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/cache@v2
+        with:
+          path: |
+            node_modules
+            **/node_modules
+          key: ${{ runner.os }}-${{ hashFiles('./yarn.lock') }}
+      - run: yarn global add now
 
-  # test:
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - uses: actions/checkout@v2
-  #     - uses: actions/cache@v2
-  #       with:
-  #         path: |
-  #           node_modules
-  #           **/node_modules
-  #         key: ${{ runner.os }}-${{ hashFiles('./yarn.lock') }}
+      - run: yarn run build:modified
+        working-directory: ./packages/docs
+      - run: node scripts/deploy-and-alias.js ${{ github.ref }}
+        env:
+          NOW_TOKEN: ${{ secrets.NOW_TOKEN }}
 
-  #     - run: yarn --frozen-lockfile --non-interactive
-  #     - run: yarn lerna run test:coverage -- -- -i
-  #     - uses: codecov/codecov-action@v1
-
-  # publish-docs:
-    # needs: [lint, test]
-    # runs-on: ubuntu-latest
-    # if: github.event_name == 'push' && github.repository_owner == 'vuetifyjs' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/dev' || github.ref == 'refs/heads/next')
-    # steps:
-    #   - uses: actions/checkout@v2
-    #   - uses: actions/cache@v2
-    #     with:
-    #       path: |
-    #         node_modules
-    #         **/node_modules
-    #       key: ${{ runner.os }}-${{ hashFiles('./yarn.lock') }}
-    #   - run: yarn global add now
-
-      # - run: yarn run build:modified
-      #   working-directory: ./packages/docs
-      # - run: node scripts/deploy-and-alias.js ${{ github.ref }}
-      #   env:
-      #     NOW_TOKEN: ${{ secrets.NOW_TOKEN }}
