@@ -19,7 +19,7 @@ export function genLink () {
     'https://srv.carbonads.net/',
     'https://www.google-analytics.com/',
   ]
-  const link = [
+  return [
     { rel: 'shortcut icon', href: '/favicon.ico' },
     { rel: 'manifest', href: '/manifest.json' },
     {
@@ -29,14 +29,6 @@ export function genLink () {
       title: 'Vuetify',
     },
   ]
-
-  // for (const rel of rels) {
-  //   for (const href of hrefs) {
-  //     link.push({ rel, href })
-  //   }
-  // }
-
-  return link
 }
 
 export function genOpenGraphMetaInfo (args) {

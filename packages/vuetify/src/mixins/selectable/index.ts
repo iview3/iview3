@@ -86,7 +86,7 @@ export default mixins(
   },
 
   methods: {
-    genLabel() {
+    genLabel () {
       // TODO:
       const label = ''
       if (!label) return label

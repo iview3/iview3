@@ -54,7 +54,7 @@
 
     watch: {
       locale (val, oldVal) {
-        if(val !== oldVal){
+        if (val !== oldVal) {
           location.reload()
           window.localStorage.setItem('currentLanguage', val)
         }

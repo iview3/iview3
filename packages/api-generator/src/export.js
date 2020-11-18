@@ -6,7 +6,7 @@ const { getComponentsApi, getDirectivesApi } = require('./index')
 const pkg = require('../package.json')
 
 const createVeturApi = () => {
-  const components = getComponentsApi(['en','zh-Hans'])
+  const components = getComponentsApi(['en', 'zh-Hans'])
 
   const tags = components.reduce((obj, component) => {
     return {
@@ -43,8 +43,8 @@ const createVeturApi = () => {
 
 // Create web-types.json to provide autocomplete in JetBrains IDEs
 const createWebTypesApi = () => {
-  const components = getComponentsApi(['en','zh-Hans'])
-  const directives = getDirectivesApi(['en','zh-Hans'])
+  const components = getComponentsApi(['en', 'zh-Hans'])
+  const directives = getDirectivesApi(['en', 'zh-Hans'])
 
   const getDocUrl = (cmp, heading = null) => `https://www.vuetifyjs.com/api/${cmp}${heading ? `#${heading}` : ''}`
 
