@@ -18,7 +18,6 @@ declare module 'vuetify/lib' {
   const VAppBar: VueConstructor
   const VAppBarNavIcon: VueConstructor
   const VAlert: VueConstructor
-  const VAutocomplete: VueConstructor
   const VAvatar: VueConstructor
   const VBadge: VueConstructor
   const VBanner: VueConstructor
@@ -49,7 +48,6 @@ declare module 'vuetify/lib' {
   const VColorPickerSwatches: VueConstructor
   const VColorPickerCanvas: VueConstructor
   const VContent: VueConstructor
-  const VCombobox: VueConstructor
   const VCounter: VueConstructor
   const VData: VueConstructor
   const VDataIterator: VueConstructor
@@ -188,7 +186,6 @@ declare module 'vuetify/lib' {
     VAppBar,
     VAppBarNavIcon,
     VAlert,
-    VAutocomplete,
     VAvatar,
     VBadge,
     VBanner,
@@ -219,7 +216,6 @@ declare module 'vuetify/lib' {
     VColorPickerSwatches,
     VColorPickerCanvas,
     VContent,
-    VCombobox,
     VCounter,
     VData,
     VDataIterator,

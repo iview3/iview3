@@ -1,6 +1,3 @@
-// Components
-import VInput from '../../components/VInput'
-
 // Mixins
 import Rippleable from '../rippleable'
 import Comparable from '../comparable'
@@ -14,7 +11,6 @@ export function prevent (e: Event) {
 
 /* @vue/component */
 export default mixins(
-  VInput,
   Rippleable,
   Comparable
 ).extend({
@@ -90,9 +86,9 @@ export default mixins(
   },
 
   methods: {
-    genLabel () {
-      const label = VInput.options.methods.genLabel.call(this)
-
+    genLabel() {
+      // TODO:
+      const label = ''
       if (!label) return label
 
       label!.data!.on = {
